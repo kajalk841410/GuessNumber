@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* background-image: linear-gradient(rgb(147, 161, 238), rgb(216, 148, 235)); */
+    background-image: url(https://img.freepik.com/free-photo/mystery-box-collage_23-2150061727.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   font-family: "Times New Roman", Times, serif;
+
+    
+  }
+  
+  .game-container {
+    text-align: center;
+    /* background-color: rgb(217, 176, 248); */
+    background-image: linear-gradient(rgb(147, 161, 238), rgb(216, 148, 235));
+    width: 30%;
+    box-shadow: 5px 5px;
+   border-radius: 12px;
+     
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+  }
+  #message{
+    font-size: large;
+  }
+  #guessInput{
+    background-color: #bdcefd;
+    height: 40px;
+    width: 80%;
+    color: #060606;
+    border-radius: 10px;
+    font-size: smaller;
+     
+  }
+  .submit{
+    background-color: #beeff6;
+    color: #0f0303;
+    border-radius: 8px;
+  }
+  
